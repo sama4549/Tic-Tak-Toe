@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+header h1, header h3 {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    margin-top: 5vh;
+    color: #6cf368;
+    margin-bottom: 0;
+}
+
+header h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #e73434;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 4vh auto 0;
+    width: 30vw;
+    height: 30vw;
+}
+
+table tr, table td {
+    border: solid green 3px;
+    width: 40px;
+    height: 65px;
+    padding: 0;
+    margin: 0;
+}
+
+table td:hover {
+    background: #d3cdcd;
+    cursor: pointer;
+}
+
+#player-one-score, #player-two-score {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#player-one-score {
+    float: left;
+    margin-left: 1vw;
+}
+
+#player-two-score {
+    float: right;
+    margin-right: 1vw;
+}
+
+#score-one, #score-two {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.square {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width: 10vh;
+}
+
+#reset {
+    font-size: 30px;
+    margin: 2vh auto 0;
+    padding: 0.5vw;
+    width: fit-content;
+    color: rgb(220, 235, 15);
+    background-color: rgb(125, 34, 178);
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#reset:hover {
+    background-color: rgb(159, 112, 185);
+}
